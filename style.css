@@ -1,0 +1,139 @@
+.header ul {
+position: absolute;
+top:10px;
+left:1030px;
+
+
+}
+.header ul li
+{
+list-style-type: none;
+font-size:13px;
+font-family: Arial, sans-serif;
+color: #444;
+display:inline;
+padding-right:20px;
+}
+
+.header ul li a
+ {
+  text-decoration: none;
+  color:#444;
+ }
+
+ #signin
+ {
+ 	display:inline-block;
+ 	height: 30px;
+ 	width: 70px;
+ 	background-color:blue;
+ }
+
+ #signin p
+ {
+ 	font-family: Arial, sans-serif;
+ 	font-size:13px;
+ 	font-weight:bold;
+ 	color:white;
+ 	margin-top:8px;
+ 	text-align: center;
+ }
+#logo
+{
+	width:20%;
+	height:auto;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:200px;
+
+}
+
+input
+{
+	height:20px;
+	width:500px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	margin-top:35px;
+}
+
+.buttons #search, #lucky
+{
+	width:114px;
+	height:30px;
+	background-color: #F5F5F5;
+	border: 1px solid rgba(0,0,0,0.1);
+	position:relative;
+	margin-top:15px;
+	display:inline-block;
+	margin-right:20px;
+}
+
+.buttons #search
+{
+	margin-left:540px;
+}
+.buttons #search,#lucky p
+{
+	font-size: 11px;
+	font-family:arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+#footer
+{
+	height:50px;
+	width:100%;
+	display:block;
+	background-color: #F5F5F5;
+	border: 1px solid rgba(0,0,0,0.1);
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+
+}
+
+
+#footer ul 
+{
+  margin:10px;
+  padding:8px;
+  text-align: left;
+
+
+
+}
+
+#footer ul li
+{
+  list-style-type: none;
+  font-size:13px;
+  font-family: Arial, sans-serif;
+  color:#444;
+  display: inline;
+  padding-right:20px;
+} 
+
+#footer ul li:nth-child(3)
+{
+	padding-right:890px;
+}
+
+#footer ul li a
+{
+	padding-top:50px;
+	text-decoration:none;
+	color: #444;
+}
+
+#footer ul li a:hover
+{
+	color:#444;
+}
+
